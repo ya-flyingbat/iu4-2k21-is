@@ -5,3 +5,7 @@ int interrupt() {
 int init() {
     return 0;
 }
+
+int close() {
+    return 0;
+}
