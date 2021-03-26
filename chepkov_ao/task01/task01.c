@@ -8,11 +8,11 @@ int fizzbuzz(int a, int b) {
 		printf(": \n");
 		for (int i = a; i < (a + b); i++) {
 				
-			if (!(i % 3) && !(i % 5) && (i != 0))
+			if 	(!(i % 15) && i)
 				printf("Fizz Buzz");
-			else if (!(i % 3) && (i != 0))
+			else if (!(i % 3) && i)
 				printf("Fizz");
-			else if (!(i % 5) && (i != 0))
+			else if (!(i % 5) && i)
 				printf("Buzz");
 			else
 				printf("%d", i);
@@ -43,5 +43,3 @@ int main(int argc, char* argv[]) {
 	
 	return 0;
 }
-		
-			
